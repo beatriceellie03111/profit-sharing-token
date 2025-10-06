@@ -56,17 +56,4 @@ genesis:
     - cost-voting
     - bns
 plan:
-  batches:
-    - id: 0
-      transactions:
-        - emulated-contract-publish:
-            contract-name: profit-calculator
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/profit-calculator.clar
-            clarity-version: 3
-        - emulated-contract-publish:
-            contract-name: revenue-distributor
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/revenue-distributor.clar
-            clarity-version: 3
-      epoch: "3.1"
+  batches: []
